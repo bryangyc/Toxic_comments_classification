@@ -27,7 +27,9 @@ Hence, finding a way to filter out the toxic comments, would help not the users 
 # Data Overview
 
 This is a project to classify toxic comments using machine learning algorithms. The dataset is taken from kaggle. The dataset can be found [here](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data). 
-Even though that the data provided contains a train and test set. To further solidify my data science concepts, I have decided to only use the train set only.
+Even though that the data provided contains a train and test set. To further solidify my data science concepts, I have decided to only use the train set only. I have also split the code into 2 separate notebooks:
+1. EDA.ipynb - Data Analysis and Data Pre-processing
+2. modeling.ipynb - Model creation for Machine Learning
 
 The dataset contains 159571 comments and 6 labels. The labels are toxic, severe_toxic, obscene, threat, insult, identity_hate. Each row can contain more than 1 label, making this a multi-label problem.
 
